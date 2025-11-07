@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações - FastStock</title>
+    <link rel="stylesheet" href="../Estilo/Configuracoes.css">
+    <style>
+
+        
+        .config-simples {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .cabecalho-simples {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .cabecalho-simples h1 {
+            color: #3F2605;
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+        
+        .cabecalho-simples p {
+            color: #666;
+            font-size: 1rem;
+        }
+        
+        .card-simples {
+            background: #2F4F4F;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border: 1px solid #3a5a5a;
+        }
+        
+        .config-grupo {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .config-grupo:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        
+        .config-titulo {
+            color: #F1E4D1;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .config-titulo svg {
+            width: 18px;
+            height: 18px;
+        }
+        
+        .config-item {
+            margin-bottom: 15px;
+        }
+        
+        .config-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .config-label {
+            display: block;
+            color: #fff;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+        
+        .config-select {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 6px;
+            background: #3a5a5a;
+            color: #fff;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .config-select:focus {
+            outline: none;
+            border-color: #3F2605;
+            background: #2F4F4F;
+        }
+        
+        .config-select:hover {
+            border-color: #3F2605;
+        }
+        
+        .mensagem-status {
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin-top: 10px;
+            font-size: 0.85rem;
+            display: none;
+        }
+        
+        .mensagem-sucesso {
+            background: rgba(40, 167, 69, 0.2);
+            color: #28a745;
+            border: 1px solid #28a745;
+        }
+        
+        .mensagem-info {
+            background: rgba(23, 162, 184, 0.2);
+            color: #17a2b8;
+            border: 1px solid #17a2b8;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .config-grupo:hover {
+            background: rgba(63, 38, 5, 0.05);
+            margin: 0 -10px;
+            padding: 20px 10px;
+            border-radius: 6px;
+        }
+        
+
+        @media (max-width: 768px) {
+            .config-simples {
+                padding: 10px;
+            }
+            
+            .card-simples {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FastStock</h1>
+    </header>
+
+    <main>
+
+        <div id="sidebar"></div>
+
+        <script>
+            fetch("../Componentes/sidebar.html")
+                .then(res => res.text())
+                .then(html => {
+                    document.getElementById("sidebar").innerHTML = html;
+                });
+        </script>
+
+        <section class="conteudo">
+            <div class="texto_cabecario">
+                <p>Configurações do Sistema</p>
+            </div>
+
+            <div class="config-simples">
+                <div class="cabecalho-simples">
+                    <p>Personalize a aparência do sistema</p>
+                </div>
+
+                <div class="card-simples">
+
+                    <div class="config-grupo">
+                        <div class="config-titulo">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+                            </svg>
+                            Aparência
+                        </div>
+                        <div class="config-item">
+                            <label class="config-label">Tema de cores:</label>
+                            <select class="config-select" id="paletacor">
+                                <option value="padrao">Padrão</option>
+                                <option value="escuro">Modo Escuro</option>
+                            </select>
+                            <div id="mensagem-tema" class="mensagem-status"></div>
+                        </div>
+                    </div>
+
+
+                    <div id="mensagem-desenvolvimento" class="mensagem-status mensagem-info">
+                        ⚙️ Outras funcionalidades de configuração estão em desenvolvimento
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="btnAcessibilidade">♿ Acessibilidade</button>
+    <div id="menuAcessibilidade" class="menu-acessibilidade">
+        <button onclick="toggleDaltonismo()">Modo Daltonismo</button>
+        <button onclick="toggleFonte()">Aumentar Fonte</button>
+        <button onclick="toggleContraste()">Alto Contraste</button>
+    </div>
+
+    <script src="../Configuracao/Acessibilidade.js"></script>
+
+
+    <link rel="stylesheet" href="../Estilo/temaglobal.css">
+    <script src="../Configuracao/temaglobal.js"></script>
+
+    <script>
+
+        document.getElementById('paletacor').addEventListener('change', function() {
+            const tema = this.value;
+            const mensagem = document.getElementById('mensagem-tema');
+            
+
+            mudarTemaGlobal(tema);
+            
+            if (tema === 'escuro') {
+                mostrarMensagem(mensagem, '🌙 Modo escuro ativado em todo o sistema!', 'sucesso');
+            } else {
+                mostrarMensagem(mensagem, '☀️ Tema padrão ativado!', 'sucesso');
+            }
+        });
+
+        function mostrarMensagem(elemento, texto, tipo) {
+            elemento.textContent = texto;
+            elemento.className = 'mensagem-status mensagem-' + tipo;
+            elemento.style.display = 'block';
+            
+            setTimeout(() => {
+                elemento.style.display = 'none';
+            }, 3000);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const temaSalvo = localStorage.getItem('faststock-tema') || 'padrao';
+            document.getElementById('paletacor').value = temaSalvo;
+            
+
+            document.getElementById('mensagem-desenvolvimento').style.display = 'block';
+            
+            console.log('Tema carregado:', temaSalvo);
+        });
+    </script>
+</body>
+</html>

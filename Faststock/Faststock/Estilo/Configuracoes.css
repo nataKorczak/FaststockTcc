@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #fff;
+    background-color: #F1E4D1;
+}
+
+header {
+    display: none;
+    text-align: center;
+    color: #4d281d;
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    margin-left: 100px;
+    flex: 1;
+    min-height: 100vh;
+    transition: margin-left 0.3s ease;
+}
+
+
+.barra_lateral {
+    width: 100px;
+    background-color: #3F2605;
+    padding-top: 20px;
+    transition: width 0.3s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0; 
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.barra_lateral:hover {
+    width: 220px;
+}
+
+.barra_lateral:hover + main {
+    margin-left: 220px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.menu {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin: 10px 0;
+}
+
+.menu ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #603813;
+}
+
+.menu ul li a img {
+    width: 35px;
+}
+
+.barra_lateral ul {
+    list-style: none;
+}
+
+.barra_lateral ul li {
+    margin: 10px 0;
+}
+
+.barra_lateral ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+.barra_lateral ul li a:hover {
+    background-color: #603813;
+}
+
+.barra_lateral ul li a img {
+    width: 35px;
+}
+
+.texto_menu {
+    margin-left: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.barra_lateral:hover .texto_menu {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.conteudo {
+    flex: 1;
+    padding: 30px;
+    margin-left: 0;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+
+
+.texto_cabecario {
+    background-color: #3F2605;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo p,
+.conteudo .texto_pagina {
+    text-align: center;
+    font-weight: bold;
+    flex: 1;
+    padding: 30px;
+    color: #fff;
+}
+
+._conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 50px 0;
+    gap: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+}
+
+.boxs_conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 50px 0;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.boxs_conteudo a {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+
+.configuracoes_box {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #2F4F4F;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: #2F4F4F 0px 5px 20px;
+    transition: transform 0.2s linear;
+    gap: 30px;
+}
+
+.configuracoes_box:hover {
+    transform: scale(1.02);
+}
+
+.configuracoes_box div {
+    margin-bottom: 25px;
+}
+
+.configuracoes_box p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.configuracoes_box label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.configuracoes_box select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+}
+
+.redefinir_senha_adm {
+    background-color: #3F2605;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.redefinir_senha_adm:hover {
+    background-color: #603813;
+}
+
+
+#btnAcessibilidade {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #3F2605;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+#btnAcessibilidade:hover {
+    background: #603813;
+}
+
+.menu-acessibilidade {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background: #fff;
+    border: 1px solid #3F2605;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    padding: 10px;
+    z-index: 1000;
+}
+
+.menu-acessibilidade button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: #3F2605;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-acessibilidade button:hover {
+    background: #603813;
+}
+
+
+body.daltonismo {
+    filter: grayscale(100%);
+}
+
+body.fonte-grande {
+    font-size: 24px;
+}
+
+body.fonte-grande .configuracoes_box {
+    font-size: 24px;
+}
+
+body.fonte-grande .configuracoes_box select,
+body.fonte-grande .redefinir_senha_adm {
+    font-size: 24px;
+    padding: 15px;
+}
+
+body.contraste {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+body.contraste .conteudo p,
+body.contraste .texto_cabecario,
+body.contraste .configuracoes_box {
+    background: #000 !important;
+    color: #fff !important;
+    border: 2px solid #fff;
+}
+
+body.contraste .configuracoes_box select {
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+body.contraste .redefinir_senha_adm {
+    background: #fff;
+    color: #000;
+    border: 2px solid #fff;
+}
+
+
+@media (max-width: 768px) {
+    .barra_lateral {
+        width: 60px;
+    }
+    
+    .barra_lateral:hover {
+        width: 180px;
+    }
+    
+    main {
+        margin-left: 60px;
+    }
+    
+    .barra_lateral:hover  main {
+        margin-left: 180px;
+    }
+    
+    .boxs_conteudo {
+        justify-content: center;
+        gap: 30px;
+        padding: 30px 0;
+    }
+    
+    .configuracoes_box {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .texto_cabecario {
+        width: 90%;
+    }
+}
+
+
+#sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+}
+

@@ -1,0 +1,148 @@
+
+.tema-padrao {
+    /* Mantém as cores originais do sistema */
+}
+
+
+.tema-escuro {
+    background-color: #1a1a1a !important;
+    color: #e0e0e0 !important;
+}
+
+.tema-escuro main,
+.tema-escuro .conteudo {
+    background-color: #1a1a1a !important;
+    color: #e0e0e0 !important;
+}
+
+.tema-escuro .texto_cabecario {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #404040 !important;
+}
+
+.tema-escuro .cabecario_adicionar,
+.tema-escuro .cabecario_estoque {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #404040 !important;
+}
+
+
+.tema-escuro .card-simples,
+.tema-escuro .configuracoes_box,
+.tema-escuro .estoque_box,
+.tema-escuro .fornecedores_box,
+.tema-escuro .vendas_box,
+.tema-escuro .admin_box,
+.tema-escuro .dashboard_box,
+.tema-escuro .informacoes_usuario {
+    background: #2d2d2d !important;
+    border-color: #404040 !important;
+    color: #e0e0e0 !important;
+}
+
+
+.tema-escuro .config-titulo,
+.tema-escuro .titulo_box,
+.tema-escuro .descricao_box,
+.tema-escuro .conteudo p,
+.tema-escuro .texto_pagina,
+.tema-escuro .cabecalho-simples h1,
+.tema-escuro .conteudo .texto_pagina {
+    color: #e0e0e0 !important;
+}
+
+.tema-escuro .config-label,
+.tema-escuro .cabecalho-simples p {
+    color: #b0b0b0 !important;
+}
+
+
+.tema-escuro .config-select,
+.tema-escuro .formulario_produto input,
+.tema-escuro .formulario_produto select,
+.tema-escuro input,
+.tema-escuro select {
+    background: #404040 !important;
+    color: #e0e0e0 !important;
+    border-color: #555 !important;
+}
+
+.tema-escuro .config-select:focus,
+.tema-escuro .formulario_produto input:focus,
+.tema-escuro .formulario_produto select:focus {
+    background: #2d2d2d !important;
+    border-color: #3F2605 !important;
+}
+
+.tema-escuro table {
+    background: #2d2d2d !important;
+    color: #e0e0e0 !important;
+}
+
+.tema-escuro th,
+.tema-escuro td {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+    border-color: #404040 !important;
+}
+
+.tema-escuro tr:nth-child(even) {
+    background-color: #252525 !important;
+}
+
+.tema-escuro tr:hover {
+    background-color: #333333 !important;
+}
+
+
+.tema-escuro .btn-simples,
+.tema-escuro .redefinir_senha_adm,
+.tema-escuro .formulario_produto button,
+.tema-escuro button:not(.menu-acessibilidade button) {
+    background: #3F2605 !important;
+    color: #e0e0e0 !important;
+    border-color: #555 !important;
+}
+
+.tema-escuro .btn-simples:hover,
+.tema-escuro .redefinir_senha_adm:hover,
+.tema-escuro .formulario_produto button:hover {
+    background: #603813 !important;
+    border-color: #e0e0e0 !important;
+}
+
+
+.tema-escuro .barra_lateral {
+    background-color: #2d2d2d !important;
+}
+
+.tema-escuro .barra_lateral ul li a {
+    color: #e0e0e0 !important;
+}
+
+.tema-escuro .barra_lateral ul li a:hover {
+    background-color: #404040 !important;
+}
+
+
+.tema-escuro #btnAcessibilidade {
+    background: #2d2d2d !important;
+    color: #e0e0e0 !important;
+    border-color: #404040 !important;
+}
+
+.tema-escuro .menu-acessibilidade {
+    background: #2d2d2d !important;
+    border-color: #404040 !important;
+}
+
+.tema-escuro .menu-acessibilidade button {
+    background: #3F2605 !important;
+    color: #e0e0e0 !important;
+}
+
+.tema-escuro .menu-acessibilidade button:hover {
+    background: #603813 !important;
+}

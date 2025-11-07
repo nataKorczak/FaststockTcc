@@ -1,0 +1,613 @@
+=== 2025-11-04 20:22:16 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => coca
+    [unidade] => Fr
+    [descricao] => coca
+    [categoria] => Bebidas
+    [quantidade] => 10
+    [valorVenda] => 15
+    [valorCompra] => 10
+    [fornecedor] => coca
+    [codigoBarra] => 124213
+    [acao] => adicionar
+)
+
+==================
+
+=== 2025-11-04 20:29:18 ===
+Categoria recebida: NULL
+Todos POST: Array
+(
+    [acao] => remover
+    [codigoBarra] => 124213
+)
+
+==================
+
+=== 2025-11-04 20:29:19 ===
+Categoria recebida: NULL
+Todos POST: Array
+(
+    [acao] => remover
+    [codigoBarra] => 1234859123
+)
+
+==================
+
+=== 2025-11-04 20:29:54 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => coca-cola
+    [unidade] => Fr
+    [descricao] => coca-cola
+    [categoria] => Bebidas
+    [quantidade] => 10
+    [valorVenda] => 15
+    [valorCompra] => 10
+    [fornecedor] => coca-cola
+    [codigoBarra] => 1231242132131
+    [acao] => adicionar
+)
+
+==================
+
+=== 2025-11-04 20:33:18 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => coca-cola
+    [unidade] => Fr
+    [descricao] => coca-cola
+    [categoria] => Bebidas
+    [quantidade] => 10
+    [valorVenda] => 15
+    [valorCompra] => 10
+    [fornecedor] => coca-cola
+    [codigoBarra] => 1231242132131
+    [acao] => editar
+    [codigoOriginal] => 1231242132131
+)
+
+==================
+
+=== 2025-11-04 20:33:21 ===
+Categoria recebida: NULL
+Todos POST: Array
+(
+    [acao] => remover
+    [codigoBarra] => 1231242132131
+)
+
+==================
+
+=== 2025-11-04 20:33:39 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => asfsa
+    [unidade] => Fr
+    [descricao] => dsafsad
+    [categoria] => Bebidas
+    [quantidade] => 12
+    [valorVenda] => 124213
+    [valorCompra] => 123
+    [fornecedor] => saf
+    [codigoBarra] => 12421
+    [acao] => adicionar
+)
+
+==================
+
+=== 2025-11-04 20:33:46 ===
+Categoria recebida: Limpeza
+Todos POST: Array
+(
+    [nomeProduto] => asfsa
+    [unidade] => Fr
+    [descricao] => dsafsad
+    [categoria] => Limpeza
+    [quantidade] => 12
+    [valorVenda] => 124213
+    [valorCompra] => 123
+    [fornecedor] => saf
+    [codigoBarra] => 12421
+    [acao] => editar
+    [codigoOriginal] => 12421
+)
+
+==================
+
+=== 2025-11-04 20:35:08 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => asfsa
+    [unidade] => Fr
+    [descricao] => dsafsad
+    [categoria] => Bebidas
+    [quantidade] => 12
+    [valorVenda] => 124213
+    [valorCompra] => 123
+    [fornecedor] => saf
+    [codigoBarra] => 12421
+    [acao] => editar
+    [codigoOriginal] => 12421
+)
+
+==================
+
+=== 2025-11-04 20:35:54 ===
+Categoria recebida: NULL
+Todos POST: Array
+(
+    [acao] => remover
+    [codigoBarra] => 12421
+)
+
+==================
+
+=== 2025-11-04 20:36:12 ===
+Categoria recebida: Alimentos
+Todos POST: Array
+(
+    [nomeProduto] => 34123
+    [unidade] => Fr
+    [descricao] => 12421
+    [categoria] => Alimentos
+    [quantidade] => 10
+    [valorVenda] => 14
+    [valorCompra] => 12
+    [fornecedor] => 123
+    [codigoBarra] => 1241
+    [acao] => adicionar
+)
+
+==================
+
+=== 2025-11-04 20:36:16 ===
+Categoria recebida: Higiene
+Todos POST: Array
+(
+    [nomeProduto] => 34123
+    [unidade] => Fr
+    [descricao] => 12421
+    [categoria] => Higiene
+    [quantidade] => 10
+    [valorVenda] => 14
+    [valorCompra] => 12
+    [fornecedor] => 123
+    [codigoBarra] => 1241
+    [acao] => editar
+    [codigoOriginal] => 1241
+)
+
+==================
+
+=== 2025-11-04 20:36:19 ===
+Categoria recebida: Higiene
+Todos POST: Array
+(
+    [nomeProduto] => 34123
+    [unidade] => Fr
+    [descricao] => 12421
+    [categoria] => Higiene
+    [quantidade] => 10
+    [valorVenda] => 14
+    [valorCompra] => 12
+    [fornecedor] => 123
+    [codigoBarra] => 1241
+    [acao] => editar
+    [codigoOriginal] => 1241
+)
+
+==================
+
+=== 2025-11-04 20:36:30 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => 34123
+    [unidade] => Fr
+    [descricao] => 12421
+    [categoria] => Bebidas
+    [quantidade] => 10
+    [valorVenda] => 14
+    [valorCompra] => 12
+    [fornecedor] => 123
+    [codigoBarra] => 1241
+    [acao] => editar
+    [codigoOriginal] => 1241
+)
+
+==================
+
+=== 2025-11-04 20:36:48 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => 34123
+    [unidade] => Fr
+    [descricao] => 12421
+    [categoria] => Bebidas
+    [quantidade] => 10
+    [valorVenda] => 14
+    [valorCompra] => 12
+    [fornecedor] => 123
+    [codigoBarra] => 1241
+    [acao] => editar
+    [codigoOriginal] => 1241
+)
+
+==================
+
+=== 2025-11-04 20:38:13 ===
+Categoria recebida: Limpeza
+Todos POST: Array
+(
+    [nomeProduto] => 34123
+    [unidade] => Fr
+    [descricao] => 12421
+    [categoria] => Limpeza
+    [quantidade] => 10
+    [valorVenda] => 14
+    [valorCompra] => 12
+    [fornecedor] => 123
+    [codigoBarra] => 1241
+    [acao] => editar
+    [codigoOriginal] => 1241
+)
+
+==================
+
+=== 2025-11-04 20:40:47 ===
+Categoria recebida: Eletrônicos
+Todos POST: Array
+(
+    [nomeProduto] => 34123
+    [unidade] => Fr
+    [descricao] => 12421
+    [categoria] => Eletrônicos
+    [quantidade] => 10
+    [valorVenda] => 14
+    [valorCompra] => 12
+    [fornecedor] => 123
+    [codigoBarra] => 1241
+    [acao] => editar
+    [codigoOriginal] => 1241
+)
+
+==================
+
+=== 2025-11-04 20:40:58 ===
+Categoria recebida: NULL
+Todos POST: Array
+(
+    [acao] => remover
+    [codigoBarra] => 1241
+)
+
+==================
+
+=== 2025-11-04 20:44:05 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => Coca-cola
+    [unidade] => Fr
+    [descricao] => Refrigerante Coca-cola
+    [categoria] => Bebidas
+    [quantidade] => 10
+    [valorVenda] => 15
+    [valorCompra] => 10
+    [fornecedor] => Coca-cola
+    [codigoBarra] => 123456789
+    [acao] => adicionar
+)
+
+==================
+
+=== 2025-11-04 20:44:16 ===
+Categoria recebida: Outros
+Todos POST: Array
+(
+    [nomeProduto] => Coca-cola
+    [unidade] => Fr
+    [descricao] => Refrigerante Coca-cola
+    [categoria] => Outros
+    [quantidade] => 7
+    [valorVenda] => 15
+    [valorCompra] => 10
+    [fornecedor] => Coca-cola
+    [codigoBarra] => 123456789
+    [acao] => editar
+    [codigoOriginal] => 123456789
+)
+
+==================
+
+=== 2025-11-04 20:44:21 ===
+Categoria recebida: NULL
+Todos POST: Array
+(
+    [acao] => remover
+    [codigoBarra] => 123456789
+)
+
+==================
+
+=== 2025-11-04 20:52:21 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => Coca-Cola
+    [unidade] => Fr
+    [descricao] => Refrigerante Coca-Cola
+    [categoria] => Bebidas
+    [quantidade] => 10
+    [valorVenda] => 25
+    [valorCompra] => 20
+    [fornecedor] => Coca-Cola
+    [codigoBarra] => 123456789
+    [acao] => adicionar
+)
+
+==================
+
+=== 2025-11-04 20:52:34 ===
+Categoria recebida: Outros
+Todos POST: Array
+(
+    [nomeProduto] => Coca-Cola
+    [unidade] => Fr
+    [descricao] => Refrigerante Coca-Cola
+    [categoria] => Outros
+    [quantidade] => 8
+    [valorVenda] => 25
+    [valorCompra] => 20
+    [fornecedor] => Coca-Cola
+    [codigoBarra] => 123456789
+    [acao] => editar
+    [codigoOriginal] => 123456789
+)
+
+==================
+
+=== 2025-11-04 20:52:42 ===
+Categoria recebida: NULL
+Todos POST: Array
+(
+    [acao] => remover
+    [codigoBarra] => 123456789
+)
+
+==================
+
+=== 2025-11-04 20:58:10 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => Coca-Cola
+    [unidade] => Fr
+    [descricao] => Refrigerante coca-cola
+    [categoria] => Bebidas
+    [quantidade] => 10
+    [valorVenda] => 25
+    [valorCompra] => 20
+    [fornecedor] => Coca-Cola
+    [codigoBarra] => 123456789
+    [acao] => adicionar
+)
+
+==================
+
+=== 2025-11-04 20:58:23 ===
+Categoria recebida: Outros
+Todos POST: Array
+(
+    [nomeProduto] => Coca-Cola
+    [unidade] => Fr
+    [descricao] => Refrigerante coca-cola
+    [categoria] => Outros
+    [quantidade] => 7
+    [valorVenda] => 25
+    [valorCompra] => 20
+    [fornecedor] => Coca-Cola
+    [codigoBarra] => 123456789
+    [acao] => editar
+    [codigoOriginal] => 123456789
+)
+
+==================
+
+=== 2025-11-04 20:58:30 ===
+Categoria recebida: NULL
+Todos POST: Array
+(
+    [acao] => remover
+    [codigoBarra] => 123456789
+)
+
+==================
+
+=== 2025-11-04 21:00:29 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => asfas
+    [unidade] => Cx
+    [descricao] => sadas
+    [categoria] => Bebidas
+    [quantidade] => 12
+    [valorVenda] => 124
+    [valorCompra] => 12
+    [fornecedor] => 21312
+    [codigoBarra] => asfasd
+    [acao] => adicionar
+)
+
+==================
+
+=== 2025-11-04 21:00:33 ===
+Categoria recebida: Alimentos
+Todos POST: Array
+(
+    [nomeProduto] => asfas
+    [unidade] => Cx
+    [descricao] => sadas
+    [categoria] => Alimentos
+    [quantidade] => 12
+    [valorVenda] => 124
+    [valorCompra] => 12
+    [fornecedor] => 21312
+    [codigoBarra] => asfasd
+    [acao] => editar
+    [codigoOriginal] => asfasd
+)
+
+==================
+
+=== 2025-11-04 21:00:44 ===
+Categoria recebida: NULL
+Todos POST: Array
+(
+    [acao] => remover
+    [codigoBarra] => asfasd
+)
+
+==================
+
+=== 2025-11-04 21:04:29 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => Coca-Cola
+    [unidade] => Fr
+    [descricao] => Refrigerante Coca-Cola
+    [categoria] => Bebidas
+    [quantidade] => 10
+    [valorVenda] => 25
+    [valorCompra] => 20
+    [fornecedor] => Coca-Cola
+    [codigoBarra] => 123456789
+    [acao] => adicionar
+)
+
+==================
+
+=== 2025-11-04 21:04:41 ===
+Categoria recebida: Outros
+Todos POST: Array
+(
+    [nomeProduto] => Coca-Cola
+    [unidade] => Fr
+    [descricao] => Refrigerante Coca-Cola
+    [categoria] => Outros
+    [quantidade] => 10
+    [valorVenda] => 25
+    [valorCompra] => 20
+    [fornecedor] => Coca-Cola
+    [codigoBarra] => 123456789
+    [acao] => editar
+    [codigoOriginal] => 123456789
+)
+
+==================
+
+=== 2025-11-04 21:04:46 ===
+Categoria recebida: Outros
+Todos POST: Array
+(
+    [nomeProduto] => Coca-Cola
+    [unidade] => Fr
+    [descricao] => Refrigerante Coca-Cola
+    [categoria] => Outros
+    [quantidade] => 7
+    [valorVenda] => 25
+    [valorCompra] => 20
+    [fornecedor] => Coca-Cola
+    [codigoBarra] => 123456789
+    [acao] => editar
+    [codigoOriginal] => 123456789
+)
+
+==================
+
+=== 2025-11-04 21:04:50 ===
+Categoria recebida: NULL
+Todos POST: Array
+(
+    [acao] => remover
+    [codigoBarra] => 123456789
+)
+
+==================
+
+=== 2025-11-04 21:16:02 ===
+Categoria recebida: Bebidas
+Todos POST: Array
+(
+    [nomeProduto] => Coca-Cola
+    [unidade] => Fr
+    [descricao] => Refrigerante Coca-Cola
+    [categoria] => Bebidas
+    [quantidade] => 10
+    [valorVenda] => 30
+    [valorCompra] => 25
+    [fornecedor] => Coca-Cola
+    [codigoBarra] => 123456789
+    [acao] => adicionar
+)
+
+==================
+
+=== 2025-11-04 21:16:15 ===
+Categoria recebida: Outros
+Todos POST: Array
+(
+    [nomeProduto] => Coca-Cola
+    [unidade] => Fr
+    [descricao] => Refrigerante Coca-Cola
+    [categoria] => Outros
+    [quantidade] => 10
+    [valorVenda] => 30
+    [valorCompra] => 25
+    [fornecedor] => Coca-Cola
+    [codigoBarra] => 123456789
+    [acao] => editar
+    [codigoOriginal] => 123456789
+)
+
+==================
+
+=== 2025-11-04 21:16:22 ===
+Categoria recebida: Outros
+Todos POST: Array
+(
+    [nomeProduto] => Coca-Cola
+    [unidade] => Fr
+    [descricao] => Refrigerante Coca-Cola
+    [categoria] => Outros
+    [quantidade] => 7
+    [valorVenda] => 30
+    [valorCompra] => 25
+    [fornecedor] => Coca-Cola
+    [codigoBarra] => 123456789
+    [acao] => editar
+    [codigoOriginal] => 123456789
+)
+
+==================
+
+=== 2025-11-04 21:16:27 ===
+Categoria recebida: NULL
+Todos POST: Array
+(
+    [acao] => remover
+    [codigoBarra] => 123456789
+)
+
+==================
+

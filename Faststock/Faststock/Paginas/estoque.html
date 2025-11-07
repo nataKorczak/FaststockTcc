@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../Estilo/Estoque.css">
+    <link rel="stylesheet" href="../Estilo/temaglobal.css">
+    <script src="../Configuracao/temaglobal.js"></script>
+</head>
+<body>
+
+
+    <input type="checkbox" id="mudar_menu" hidden>
+
+    <header>
+
+        <h1>FasTock</h1>
+
+    </header>
+
+    <main>
+
+<div id="sidebar"></div>
+
+    <script>
+        fetch("../Componentes/sidebar.html")
+            .then(res => res.text())
+            .then(html => {
+        document.getElementById("sidebar").innerHTML = html;
+        });
+    </script>
+
+        <section class="conteudo">
+
+            <div class="texto_cabecario">
+
+                <p class="texto_pagina">CONTROLE DE ESTOQUE/FORNECEDORES</p>
+            
+            </div>
+
+            <div class="boxs_conteudo">
+
+            <a href="./gerenciar_estoque.php">
+
+                <div class="estoque_box">
+
+                    <p class="titulo_box">Gerenciar Estoque</p>
+
+                    <p class="descricao_box">Visualizar, adicionar, editar ou remover produtos</p>
+
+                </div>
+            </a>
+                    
+            <a href="./gerenciar_fornecedores.php">
+
+                <div class="fornecedores_box">
+
+                    <p class="titulo_box">Gerenciar fornecedores</p>
+
+                    <p class="descricao_box">Visualizar, adicionar, editar ou remover fornecedores</p>
+
+                </div>
+
+            </a>
+                
+
+            </div>
+
+        </section>
+
+    </main>
+
+        <button id="btnAcessibilidade">♿ Acessibilidade</button>
+
+    <div id="menuAcessibilidade" class="menu-acessibilidade">
+        <button onclick="toggleDaltonismo()">Modo Daltonismo</button>
+        <button onclick="toggleFonte()">Aumentar Fonte</button>
+        <button onclick="toggleContraste()">Alto Contraste</button>
+    </div>
+
+    <script src="../Configuracao/Acessibilidade.js"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+    
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+<script src="../Configuracao/widget.js"></script>
+</body>
+</html>
